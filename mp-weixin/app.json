@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/huida/list",
+    "pages/huida/add-or-update",
+    "pages/huida/detail",
+    "pages/jiaoanxinxi/list",
+    "pages/jiaoanxinxi/add-or-update",
+    "pages/jiaoanxinxi/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/jiaoshiLiuyan/list",
+    "pages/jiaoshiLiuyan/add-or-update",
+    "pages/jiaoshiLiuyan/detail",
+    "pages/kecheng/list",
+    "pages/kecheng/add-or-update",
+    "pages/kecheng/detail",
+    "pages/kechengLiuyan/list",
+    "pages/kechengLiuyan/add-or-update",
+    "pages/kechengLiuyan/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zuoye/list",
+    "pages/zuoye/add-or-update",
+    "pages/zuoye/detail",
+    "pages/zuoyeLiuyan/list",
+    "pages/zuoyeLiuyan/add-or-update",
+    "pages/zuoyeLiuyan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校学习助手小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#3CB371",
+    "borderStyle": "black",
+    "backgroundColor": "#008761",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/jiaoshi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "教师"
+      },
+      {
+        "pagePath": "pages/kecheng/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "课程信息"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  },
+  "sitemapLocation": "sitemap.json"
+}
